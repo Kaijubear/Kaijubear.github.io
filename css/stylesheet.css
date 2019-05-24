@@ -1,0 +1,21 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.bg-light{
+	background-color: white;
+}
